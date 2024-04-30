@@ -1,1 +1,10 @@
-
+torch
+numpy
+fastapi
+uvicorn
+librosa
+scipy
+requests
+pydantic
+openai
+langchain
