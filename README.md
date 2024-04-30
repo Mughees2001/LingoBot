@@ -54,11 +54,11 @@ Follow these steps to set up and run the backend server for LingoBot:
    ```sh
    pip install -r requirements.txt
    ```
-3. **Run the server:**
+3. **Add Your Key:**
+   Get your openai key and add it in the `server.py` file.
+   
+4. **Run the server:**
    Start the server using uvicorn with the command below:
    ```sh
    uvicorn server:app --reload
    ```
-
-
-
