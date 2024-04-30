@@ -16,7 +16,7 @@ LingoBot is a dynamic language learning platform, initially designed to aid in l
 LingoBot also includes a versatile voice chatbot with the following functionalities:
 1. **General Conversational AI:** Engage in day-to-day conversations in Urdu.
 2. **Adventure Story Game:** Activate this mode by saying "آؤ کہانی سفر کھیلیں" (Let's play a story adventure).
-3. **Urdu Grammar Teacher:** Learn and practice Urdu grammar interactively.
+3. **Urdu Grammar Teacher:** Learn and practice Urdu grammar interactively. Activate this by saying "اُردو پڑھتے ہیں" (Let's study Urdu).
 
 ## Built With
 
