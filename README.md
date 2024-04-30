@@ -41,6 +41,10 @@ Ensure you have `node.js` and `npm` installed on your system to run the front-en
    ```sh
    npm install
    ```
+3. Start the frontend:
+   ```sh
+   npm start
+   ```
 
 ### Setting Up the Backend
 
