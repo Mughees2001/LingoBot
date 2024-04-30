@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
+.chat-box {
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 10px;
+
+    /* Rounded corners */
+    border-radius: 20px; 
+
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* height: 400px; */
+    height: 60vh;
+    display: flex; /* You already had this. Useful if you want to use flex properties for inner items */
+    flex-direction: column;
+    overflow: scroll;
+   
+}
+
+.story-generator{
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 10px;
+
+    /* Rounded corners */
+    border-radius: 20px; 
+
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* height: 400px; */
+    height: 60vh;
+    display: flex; /* You already had this. Useful if you want to use flex properties for inner items */
+    flex-direction: column;
+    overflow: scroll;
+   
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end; /* This pushes the buttons to the right */
+    gap: 10px;  /* This provides space between buttons */
+    padding: 10px 10px; /* Optional: provides some spacing above the buttons */
+
+}
+
+.story-container{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 25px;
+    background-color: white;
+    color: #455947;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-text{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-weight: bold; 
+}
+
+.send-button {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: white;
+    color: #455947;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* No need for width and height since the button will size itself based on its content and padding. */
+}
+
+.send-button:hover {
+    background-color: #d4bda1;
+}
+
+
+.record-button {
+    background-color: white; 
+    color: #455947;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.record-button:hover {
+    background-color:  #d4bda1;
+}
+
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* If you want to vertically align children */
+    padding: 10px 10px;  /* Adds a bit of space on the left and right */
+
+}
+
+.input-box {
+    flex: 1;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    resize: vertical;
+    overflow-y: auto;
+    direction: rtl;
+}
+
+.input-box::placeholder {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+/* .input-box {
+    resize: none;
+    overflow: auto;
+} */
+
+.input-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.input-box::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.input-box::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.input-box::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.message-history {
+
+    flex: 1;
+    overflow-y: scroll;
+    border-radius: 20px; 
+    margin-top: 10px;
+    /* max-height: 270px; */
+    padding-bottom: 20px;
+
+
+}
+
+.message-box {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: #c9d9c3;
+    color: #455947;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: table;
+    max-width: 70%;
+    min-width: 5%;
+    word-wrap: break-word;
+    margin-left: auto; 
+    margin-right: 1%;
+    max-height: 30%;
+}
+
+.reply-box {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: #d4bda1;
+    color: #455947;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: table;
+    max-width: 70%;
+    min-width: 5%;
+    word-wrap: break-word;
+    margin-right: auto; 
+    margin-left: 1%;
+}
+
+.audio-box::-webkit-media-controls-play-button, .audio-box::-webkit-media-controls-panel {
+    background-color: #c9d9c3;
+    color: #455947;
+}
+
+.audio-reply-box::-webkit-media-controls-play-button, .audio-reply-box::-webkit-media-controls-panel {
+    background-color: #d4bda1;
+    color: #455947;
+}
+
+.audio-box {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: table;
+    margin-left: auto; 
+    margin-right: 0%;
+}
+
+.audio-reply-box {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: table;
+    margin-left: 0%; 
+    margin-right: auto;
+}
+
+.message-history::-webkit-scrollbar {
+    width: 8px;
+}
+
+.message-history::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.message-history::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.message-history::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
