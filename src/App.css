@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Rounded Mplus 1c';
+    src: local('MPLUSRounded1c-ExtraBold'), url(./fonts/MPLUSRounded1c-ExtraBold.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.main {
+
+    display: flex;
+    /* background-color: #d4bda1; */
+    background-color: #dbc4a9;
+
+    padding: 4.69% 4.73%;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navbar {
+
+    background-color: #c9d9c3;
+    height: 10.74%;
+    width: 90.42%; 
+    margin: 0 auto;
+
+    /* Rounded corners */
+    border-radius: 20px; 
+
+    /* Outline or "stroke" around the navbar */
+    border: 4px solid #000; 
+
+    display: flex;
+    align-items: center; /* vertically center items */
+    justify-content: space-between; /* maximum space between items */
+    padding: 0 1.84%; /* Add padding to the far left and right */
+}
+
+.navbar-logo {
+    
+    height: 74.5%;
+}
+
+.navbar-links {
+
+    display: flex;
+    justify-content: center; /* centers the links */
+    align-items: center; /* vertically center items */
+    gap: 2rem; /* space between the two links; adjust as needed */
+
+}
+
+.navbar-links a, .contact-btn {
+
+    font-size: calc(0.6rem + 0.8vmin);
+    font-family: 'Rounded Mplus 1c', sans-serif;
+    font-weight: 800;
+}
+
+.main-content {
+
+    width: 90.42%;  /* same as the navbar for alignment*/
+    height: 69%;  /* set as 69% of the viewport height so that its children are responsive */
+    margin: auto; /* centering the wrapper */
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+
+.animation-column {
+
+    flex: 1; 
+    margin-right: 20px;
+    /* align-self: center; */
+}
+
+.chat-column {
+
+    flex: 1;
+    width: 40.42%;
+    margin-left: 20px;
+
+}
+
+
+#myAnimation {
+
+    
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    
+    align-items: flex-end;
+    text-align: center;     /* Centers the copyright text */
+    font-size: 14px;
+    bottom: 0;              /* Ensures the footer is at the bottom if positioned absolutely or fixed */
+}
