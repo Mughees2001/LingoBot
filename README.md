@@ -34,6 +34,25 @@ Ensure you have `node.js` and `npm` installed on your system to run the front-en
 2. Install dependencies:
    ```bash
    npm install
-  ```
+   ```
+
+### Setting Up the Backend
+
+Follow these steps to set up and run the backend server for LingoBot:
+
+1. **Navigate to the server folder:**
+   Change into the server directory where the backend code resides.
+
+2. **Install the necessary Python libraries:**
+   Run the following command to install dependencies listed in `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the server:**
+   Start the server using uvicorn with the command below:
+   ```bash
+   uvicorn server:app --reload
+   ```
+
 
 
