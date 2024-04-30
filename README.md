@@ -12,6 +12,9 @@ LingoBot is a dynamic language learning platform, initially designed to aid in l
 - **Playback Controls:** Stories can be played, paused, and navigated through (fast forward or rewind). 
 - **Text Display:** Alongside auditory output, stories are displayed in a beautiful Urdu font.
 
+![StoryTeller](public/img1.jpeg)
+![Voice Chatbot](public/img2.png)
+
 ### Voice Chatbot
 LingoBot also includes a versatile voice chatbot with the following functionalities:
 1. **General Conversational AI:** Engage in day-to-day conversations in Urdu.
