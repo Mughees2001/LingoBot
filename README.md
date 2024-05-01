@@ -66,3 +66,11 @@ Follow these steps to set up and run the backend server for LingoBot:
    ```sh
    uvicorn server:app --reload
    ```
+
+### Contributors
+
+- **Mughees Ur Rehman**
+  - [Mughees2001](https://github.com/Mughees2001/)
+
+- **Saleha Muzammil**
+  - [saleha-muzammil](https://github.com/saleha-muzammil)
